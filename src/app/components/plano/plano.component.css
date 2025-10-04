@@ -1,0 +1,45 @@
+.page-background {
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  margin: auto;
+}
+
+:host ::ng-deep .p-table {
+  width: 100%;
+}
+
+:host ::ng-deep .p-paginator {
+  border: none;
+}
+
+.form-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 1.5rem;              
+  flex-wrap: wrap;          
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-item {
+  gap: 0.5rem;
+}
+
+.form-input {
+  height: 40px;          
+  border-radius: 8px;
+  padding: 0 12px;
+  font-size: 1rem;
+}

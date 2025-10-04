@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(192, 212, 218);
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+.p-card{
+    margin-bottom: 20px;
+}
